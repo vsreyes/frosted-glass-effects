@@ -25,10 +25,13 @@ section h2 {
 }
 section .glass {
   position: absolute;
+  transform: translate(-50%, -50%);
   pointer-events: none;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   box-shadow: 0 25px 50px rgb(0, 0, 0, 0.2);
   background: transparent;
   backdrop-filter: blur(10px);
+  transition: 0.1s;
+  border-radius: 50%;
 }
